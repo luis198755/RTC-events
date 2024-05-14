@@ -8,7 +8,7 @@ RTC_DS3231 rtc;
 
 const int eventHours[8]   = {1, 4, 7, 10, 12, 12, 19, 22}; // Event times in 24-hour format
 const int eventMinutes[8] = {0, 0, 0,  0, 35, 40,  0,  0}; // Event minutes
-const int eventSeconds[8] = {0, 0, 0, 0, 0, 0, 0, 0}; // Event seconds
+const int eventSeconds[8] = {0, 0, 0,  0,  0,  0,  0,  0}; // Event seconds
 bool eventTriggered[8] = {false, false, false, false, false, false, false, false};
 
 void handleEvent(int eventIndex);
